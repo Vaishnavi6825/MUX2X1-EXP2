@@ -8,7 +8,7 @@ To design and implement a 2:1 multiplexer (MUX) circuit using Cadence EDA tools,
 • Personal Computer <br>
 • Cadence Virtuoso Software<br>
 
-`S C H E M A T I C S I M U L A T I O N` 
+`S C H E M A T I C S I M U L A T I O N` <br>
 PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION Commands to get into Cadence
 
 -Right Click and open the terminal window <br>
@@ -35,12 +35,13 @@ i) Procedure for Creating New Library. <br>
 • Enable Attach to an existing technology library, Click OK <br>
 • Attach the library to the technology library gpdk045.Click OK <br>
 
-ii) Create Schematic Cell view. 
+ii) Create Schematic Cell view. <br>
 • Go to 1st window i.e virtuoso(CIW) <br>
 • File-New-Cell view <br>
 • Setup the new file form Library: Select the one you a created. Cell : Give the experiment name Ex: Inverter View_Schematic Type: Schematic press OK <br>
 • Add the required components from the libraries and make the connections. <br>
- Go to instance fixed menu or use shortcut key “I” from keypad to go instances  Click on browse. This opens the library browser <br>
+ Go to instance fixed menu or use shortcut key “I” from keypad to go instances <br>
+ Click on browse. This opens the library browser <br>
  Now select the appropriate library for components like <br>
  Gpdk45 ------------------------nmos1v, pmos1v <br>
  Create Input and Output pins  Make the connections by using fixed narrow wire key  Click Check and Save button image<br>
